@@ -1,8 +1,6 @@
 site_name: Technology Demystified
 site_description: Comprehensive documentation and resources for the FOSS United platform and community.
-copyright: Copyright &copy; 2021 - 2025 Technology Demystified
-#repo_url: https://github.com/fossunited/fossunited
-#edit_uri: edit/develop/docs/docs/
+copyright: Copyright © 2021 - 2025 Technology Demystified
 
 nav:
   - Home: index.md
@@ -48,11 +46,10 @@ nav:
       - Architecture Overview: architecture.md
       - Changelog: changelog.md
 
-
 theme:
   name: material
-#  logo: ./assets/fossunited-white.svg
-#  favicon: ./assets/fossunited-white.svg
+  # logo: ./assets/fossunited-white.svg
+  # favicon: ./assets/fossunited-white.svg
   features:
     - navigation.instant
     - navigation.top
@@ -83,7 +80,7 @@ theme:
 
 plugins:
   - glightbox
-  - search:
+  - search
 
 extra_css:
   - assets/custom.css
@@ -94,3 +91,7 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
