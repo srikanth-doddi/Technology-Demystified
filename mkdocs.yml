@@ -4,6 +4,7 @@ copyright: Copyright © 2021 - 2025 Technology Demystified
 
 nav:
   - Home: index.md
+  - Distributed Systems: distributedsystem/distributed-systems.md
 
   - Your Profile:
       - Create Your Profile: create-profile.md
